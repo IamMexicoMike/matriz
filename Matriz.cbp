@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 		</Build>
@@ -20,7 +21,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/matriz.h" />
+		<Unit filename="include/matriz_ref.h" />
+		<Unit filename="include/matriz_slice.h" />
+		<Unit filename="include/stroustrup.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/matriz.cpp" />
+		<Unit filename="src/matriz_ref.cpp" />
+		<Unit filename="src/matriz_slice.cpp" />
+		<Unit filename="src/stroustrup.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
